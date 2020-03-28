@@ -1,1 +1,11 @@
 node_modules
+
+app.js
+
+jest.config.js
+
+server.js
+
+src/database/test.sqlite
+
+src/tests

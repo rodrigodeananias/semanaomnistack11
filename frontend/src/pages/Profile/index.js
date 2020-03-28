@@ -18,7 +18,7 @@ export default function Profile() {
     useEffect(() => {
         api.get('profile', {
             headers: {
-                Authorization: ongId,
+                Authorization: ongId, 
             }
         }).then(response => {
             setIncidents(response.data);
@@ -47,7 +47,7 @@ export default function Profile() {
     if(!ongId) {
         history.push('/');
     }
-    
+
     return (
         <div className="profile-container">
             <header>
